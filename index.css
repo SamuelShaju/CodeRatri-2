@@ -3,5 +3,60 @@
 }
 
 body {
-    background-color: rgb(65, 63, 63);
+    background-color: rgb(37, 38, 39);
+}
+
+section {
+    z-index: -10;
+    color: rgb(236, 226, 208);
+
+    /* Temp */
+    border: 2px solid beige;
+}
+
+h1 {
+    position: relative;
+    padding-left: 5vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#R {
+    font-size: 8em;
+}
+
+#rules {
+    font-size: 3em;
+    position: absolute;
+    top: .8em;
+    margin-left: 10px;
+}
+
+#regu {
+    font-size: 3em;
+    position: absolute;
+    top: 1.6em;
+}
+
+ul {
+    margin-bottom: 2em;
+    font-size: 2.5em;
+    list-style-type: square;
+    padding: 5px 5vw 5px 5vw;
+    position: relative;
+}
+
+.unicode {
+    color: rgba(255, 0, 0, 0.842);
+    position: relative;
+    top: -.1em;
+}
+
+li {
+    margin-top: 3vh;
+}
+
+
+@media (max-width: 768px)
+{
+
 }
