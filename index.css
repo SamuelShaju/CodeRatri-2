@@ -80,6 +80,7 @@ li {
 #bottom_div {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
     overflow: hidden;
     position: relative;
@@ -88,6 +89,13 @@ li {
 
 #social {
     font-size: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: hidden;
+}
+
+#social_logo {
+    width: 20vw;
 }
 
 .social_a {
