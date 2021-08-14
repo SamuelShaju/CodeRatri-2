@@ -4,7 +4,7 @@
         hour = minute * 60,
         day = hour * 24;
 
-  let reg_close = "Sep 1, 2021 00:00:00",
+  let reg_close = "Sep 2, 2021 23:59:59",
       countDown = new Date(reg_close).getTime(),
       x = setInterval(function() {    
 
