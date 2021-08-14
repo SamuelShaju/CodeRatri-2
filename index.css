@@ -1,6 +1,5 @@
 * {
-    overflow-x: hidden;
-    
+    overflow-x: hidden;    
     margin: 0;
 }
 
@@ -92,6 +91,7 @@ li {
     font-size: 40px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
     overflow-y: hidden;
 }
 
@@ -216,7 +216,39 @@ div[id="timer"] li {
     font-size: 6vh;
 }
 
-@media (max-width: 768px)
+@media (max-width: 1000px)
 {
+    #rulreg {
+        display: none;
+    }
+
+    #rule_head {
+        width: 80%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        font-size: 20px;
+    }
+
+    #social_logo {
+        display: none;
+    }
+
+    #bottom_logo {
+        width: 70vw;
+        margin-left: 70%;
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 500px)
+{
+    #rule_head {
+        font-size: 15px;
+    }
+
+    ul {
+        font-size: 2em;
+    }
 
 }
+
