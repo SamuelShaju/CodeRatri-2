@@ -1,0 +1,4 @@
+BG COLOR: #252627
+MAIN TEXT COLOR: #ECE2D0
+Sub colors: #D05344 - orange
+	: #273478 - blue
