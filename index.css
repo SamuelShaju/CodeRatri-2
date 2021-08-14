@@ -14,7 +14,7 @@ section {
     overflow-y: hidden;
 
     /* Temp */
-    border: 2px solid beige;
+   /* border: 2px solid beige;*/
 }
 
 #rule_head{
@@ -50,13 +50,13 @@ section {
     top: 1.6em;
 }
 
-ul {
+/*ul {
     margin-bottom: 2em;
     font-size: 2.5em;
     list-style-type: square;
     padding: 5px 5vw 5px 5vw;
     position: relative;
-}
+}*/
 
 .unicode {
     color: rgba(255, 0, 0, 0.842);
@@ -146,6 +146,7 @@ div[id="upperwave"] img{
 
 /*coderatri 2.0------------------------*/
 #heading{
+    font-family: 'Contrail One', cursive;
     font-size: 10vw;
     z-index: 1;
 }
@@ -156,6 +157,7 @@ div[id="upperwave"] img{
 button{
     position: relative;
     z-index: 1;
+    margin: 20px;
     height: 8vw;
     width: 24vw;
     border-radius:7px;
@@ -180,23 +182,38 @@ button span{
 
 /*timer-----------------------------------*/
 #timer{
+    margin: 150px;
     z-index: 1;
 }
 div[id="timer"] {
     background-color: rgb(37, 38, 39);
     border: dotted;
     border-color: white;
+    height: 7vw;
 }
 div[id="timer"] li {
     display: inline-block;
     font-size: 1.5vw;
     list-style-type: none;
     text-transform: uppercase;
+    margin: 0px;
   }
   
   div[id="timer"] li span {
     display: block;
   }
+  .counting{
+    /* margin-bottom: 2em; */
+
+}
+.time_unit{
+    font-size: 1.5vh;
+}
+  /*---------------------------------------------*/
+.numbers{
+    padding-right: 2vh;
+    font-size: 6vh;
+}
 
 @media (max-width: 768px)
 {
