@@ -137,7 +137,7 @@ i {
 }
 
 /*----------------------------*/
-#top{
+top{
     display: flex;
   flex-direction: column;
   align-items:center;
@@ -196,7 +196,9 @@ div[id="timer"] {
     background-color: rgb(37, 38, 39);
     border: dotted;
     border-color: white;
+    min-height: 10vh;
     height: 7vw;
+    min-width: 40vh;
 }
 div[id="timer"] li {
     display: inline-block;
@@ -216,11 +218,39 @@ div[id="timer"] li {
 .time_unit{
     font-size: 1.5vh;
 }
-  /*---------------------------------------------*/
 .numbers{
     padding-right: 2vh;
     font-size: 6vh;
 }
+  /*---------------------------------------------*/
+
+/*mid images------------------*/
+#mid_top{
+    position: relative;
+    display: grid;
+}
+.image1{
+    position: relative;
+    width: 100%;
+    top: 150px;
+    z-index: 1;
+}
+.image2{
+    z-index: 2;
+    position: relative;
+    right:-50%;
+    width: 50%;
+    top: -240%;
+
+}
+.image3{
+    position: relative;
+    width: 50%;
+    z-index: 3;
+    top:-290%;
+    right:-50%;
+}
+/*---------------------------*/
 
 @media (max-width: 1000px)
 {
@@ -286,4 +316,9 @@ div[id="timer"] li {
     }
 
 }
-
+@media (max-width: 768px)
+{
+    .image1{
+        top: 40px;   
+    }
+}
