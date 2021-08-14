@@ -80,6 +80,17 @@ background: -webkit-linear-gradient(-30deg,  rgba(252,250,222,1) 0%,rgba(252,250
 background: linear-gradient(150deg,  rgba(252,250,222,1) 0%,rgba(252,250,222,1) 22%,rgba(252,250,222,1) 52%,rgba(186,181,165,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfade', endColorstr='#bab5a5',GradientType=1 );
 }
+div[id="timer"] li {
+    display: inline-block;
+    font-size: 1.5vw;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+  }
+  
+  div[id="timer"] li span {
+    display: block;
+}
 
 @media (max-width: 768px)
 {
