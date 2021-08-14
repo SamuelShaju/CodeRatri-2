@@ -11,9 +11,9 @@
         let now = new Date().getTime(),
             distance = countDown - now;
 
-        document.getElementById("days").innerText = Math.floor(distance / (day)),
-          document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
-          document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+        document.getElementById("days").innerText = Math.floor(distance / (day))+`  :`;
+          document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour))+`  :`;
+          document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute))+`  :`;
           document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
       }, 0)
   }());
