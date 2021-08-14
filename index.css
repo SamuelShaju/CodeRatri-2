@@ -19,6 +19,8 @@ section {
 
 #rule_head{
     position: relative;
+    width: 100vw;
+    margin: 0;
     padding-left: 5vw;
     font-family: 'Contrail One', cursive;
     font-weight: 500;
@@ -72,8 +74,7 @@ li {
     /* height: 100vh; */
     width: 50vw;
     position: relative;
-    margin-left: 50vw;
-    transform: translateX(-50%);
+    top: 30px;
 }
 
 
@@ -88,15 +89,20 @@ li {
 }
 
 #social {
-    font-size: 40px;
+    font-size: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     overflow-y: hidden;
+    position: relative;
+    top: -20px;
 }
 
 #social_logo {
-    width: 20vw;
+    position: relative;
+    top: -40px;
+    left: -250px;
+    width: 200px;
 }
 
 .social_a {
@@ -109,7 +115,7 @@ i {
     margin: 5px;
     size: 2em;
     position: relative;
-    top: .29em;
+    top: .39em;
 }
 
 #bottom {
@@ -218,40 +224,65 @@ div[id="timer"] li {
 
 @media (max-width: 1000px)
 {
+
+    #social {
+        font-size: 30px;
+    }
+
     #rulreg {
-        display: none;
+        left: 10em;
     }
 
     #rule_head {
-        width: 80%;
-        margin-left: 50%;
-        transform: translateX(-50%);
+        width: 69%;
         font-size: 20px;
     }
 
     #rule_list {
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
     #social_logo {
-        display: none;
+        /* display: none; */
+        left: 0px;
     }
 
     #bottom_logo {
-        width: 70vw;
-        margin-left: 70%;
-        transform: translateX(-50%);
+        width: 80vw;
+        top: 0;
     }
 }
 
 @media (max-width: 500px)
 {
+
+    #social {
+        font-size: 20px;
+        display: grid;
+        grid-template-columns: auto auto;
+        text-align: justify;
+    }
+    
     #rule_head {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     #rule_list {
-        font-size: 1.5em;
+        font-size: 1em;
+    }
+
+    #bottom_logo {
+        width: 110vw;
+    }
+
+    #social_logo {
+        /* display: none; */
+        width: 30vw;
+        left: 0px;
+    }
+
+    #rule_list li{
+        text-align: justify;
     }
 
 }
