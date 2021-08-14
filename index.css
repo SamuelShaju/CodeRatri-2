@@ -348,9 +348,8 @@ div[id="timer"] li {
     }
     
 }
-/* @media (max-width: 400px)
+@media (max-width: 370px)
 {
-    #upperwave{
-        width: 300vw;
+    div[id="upperwave"] img{
+        width: 150%;
     }
-} */
