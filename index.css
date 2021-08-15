@@ -137,6 +137,64 @@ i {
     width: 100vw;
 }
 
+h6 {
+    font-size: 1.2em;
+    color: #01C9EB;
+    font-family: 'Contrail One', cursive;
+}
+
+.dates {
+    color: #D05344;
+    font-family: 'Contrail One', cursive;
+}
+
+#date_text {
+    /* position: relative; */
+    z-index: 30;
+    font-size: 30px;
+}
+
+#qualifier {
+    position: absolute;
+    top: 15%;
+    left: 18%;
+}
+
+#round_1 {
+    position: absolute;
+    top: 45%;
+    left: 9%;
+}
+
+#round_2 {
+    position: absolute;
+    top: 71%;
+    left: 35%;
+}
+
+#final_round {
+    position: absolute;
+    top: 75%;
+    left: 73%;
+}
+
+#round_1_head {
+    position: relative;
+    left: 40%;
+}
+
+#round_2_head {
+    position: relative;
+    left: 30%;
+}
+
+#final_round_head {
+    position: relative;
+    left: 30%;
+}
+
+
+
 /*----------------------------*/
 #top{
     display: flex;
@@ -297,6 +355,10 @@ div[id="timer"] li {
         width: 80vw;
         top: 0;
     }
+
+    #date_text {
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 500px)
@@ -333,6 +395,10 @@ div[id="timer"] li {
         text-align: justify;
     }
 
+    #date_text {
+        font-size: 15px;
+    }
+
 }
 @media (max-width: 700px)
 {
@@ -362,6 +428,19 @@ div[id="timer"] li {
     .image3{
         top:-60vh;
     }
+
+    #round_1 {
+        top: 43%;
+    }
+    
+    #round_2 {
+        top: 69%;
+        left: 33%;
+    }
+    
+    #final_round {
+        top: 71%;
+    }
 }
 @media (min-width:1000px) and (max-width:1200px) {
     #mid_top{
@@ -372,6 +451,20 @@ div[id="timer"] li {
     }
     .image3{
         top:-60vh;
+    }
+
+    #round_1 {
+        top: 45%;
+        left: 7%;
+    }
+    
+    #round_2 {
+        top: 72%;
+        left: 32%;
+    }
+    
+    #final_round {
+        top: 75%;
     }
 }
 @media (max-width:999px) and (min-width:870px)
@@ -388,6 +481,25 @@ div[id="timer"] li {
     .image4{
         top:-60vh;
     }
+
+    #qualifier {
+        top: 17%;
+        left: 18%;
+    }
+
+    #round_1 {
+        top: 46%;
+        left: 10%;
+    }
+    
+    #round_2 {
+        top: 73%;
+        left: 35%;
+    }
+    
+    #final_round {
+        top: 75%;
+    }
 }
 @media (max-width:869px) and (min-width:769px)
 {
@@ -403,6 +515,10 @@ div[id="timer"] li {
     .image4{
         top:-50vh;
     }
+    #qualifier {
+        top: 19%;
+        left: 18%;
+    }
 }
 @media (max-width: 768px) and (min-width:680px)
 {
@@ -417,6 +533,25 @@ div[id="timer"] li {
     }
     .image3{
         top:-55vh;
+    }
+
+    #qualifier {
+        top: 11%;
+        left: 18%;
+    }
+
+    #round_1 {
+        top: 40%;
+        left: 7%;
+    }
+    
+    #round_2 {
+        top: 66%;
+        left: 32%;
+    }
+    
+    #final_round {
+        top: 70%;
     }
 }
 @media (max-width:679px) and (min-width:600px)
@@ -436,6 +571,26 @@ div[id="timer"] li {
     .image4{
         top:-40vh;
     }
+
+
+    #qualifier {
+        top: 11%;
+        left: 18%;
+    }
+
+    #round_1 {
+        top: 42%;
+        left: 5%;
+    }
+    
+    #round_2 {
+        top: 69%;
+        left: 30%;
+    }
+    
+    #final_round {
+        top: 71%;
+    }
 }
 @media (max-width:599px) and (min-width:500px)
 {
@@ -453,6 +608,30 @@ div[id="timer"] li {
     }
     .image4{
         top:-35vh;
+    }
+
+    
+    #date_text {
+        font-size: 17px;
+    }
+
+    #qualifier {
+        top: 12%;
+        left: 18%;
+    }
+
+    #round_1 {
+        top: 42%;
+        left: 5%;
+    }
+    
+    #round_2 {
+        top: 69%;
+        left: 30%;
+    }
+    
+    #final_round {
+        top: 72%;
     }
 }
 @media (max-width:499px) and (min-width:390px)
@@ -472,6 +651,29 @@ div[id="timer"] li {
     .image4{
         top:-28vh;
     }
+
+    #date_text {
+        font-size: 13px;
+    }
+
+    #qualifier {
+        top: 13%;
+        left: 18%;
+    }
+
+    #round_1 {
+        top: 45%;
+        left: 4%;
+    }
+    
+    #round_2 {
+        top: 74%;
+        left: 30%;
+    }
+    
+    #final_round {
+        top: 76%;
+    }
 }
 @media (max-width:389px)
 {
@@ -489,5 +691,28 @@ div[id="timer"] li {
     }
     .image4{
         top:-20vh;
+    }
+
+    #date_text {
+        font-size: 10px;
+    }
+
+    #qualifier {
+        top: 15%;
+        left: 18%;
+    }
+
+    #round_1 {
+        top: 45%;
+        left: 4%;
+    }
+    
+    #round_2 {
+        top: 72%;
+        left: 30%;
+    }
+    
+    #final_round {
+        top: 76%;
     }
 }
