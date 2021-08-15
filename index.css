@@ -349,6 +349,18 @@ div[id="timer"] li {
         width: 150%;
     }
 }
+@media (min-width:1201px) and (max-width:1300px)
+{  
+    #mid_top{
+        height:1700px;
+    }
+    .image2{
+        top:-50vh;
+    }
+    .image3{
+        top:-60vh;
+    }
+}
 @media (min-width:1000px) and (max-width:1200px) {
     #mid_top{
         height:1500px;
