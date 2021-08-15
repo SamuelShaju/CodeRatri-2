@@ -237,7 +237,7 @@ div[id="timer"] li {
 #mid_top{
     position: relative;
     display: grid;
-    height: 3000px;
+    height: 1900px;
 }
 .image1{
     position: relative;
@@ -250,14 +250,14 @@ div[id="timer"] li {
     position: relative;
     right:-50%;
     width: 50%;
-    top: -700px;
+    top: -400px;
 
 }
 .image3{
     position: relative;
     width: 50%;
     z-index: 3;
-    top:-900px;
+    top:-600px;
     right:-50%;
 }
 .image4{
@@ -307,6 +307,7 @@ div[id="timer"] li {
         display: grid;
         grid-template-columns: auto auto;
         text-align: justify;
+        top: 10px;
     }
     
     #rule_head {
@@ -325,6 +326,7 @@ div[id="timer"] li {
         /* display: none; */
         width: 30vw;
         left: 0px;
+        top: 50px;
     }
 
     #rule_list li{
