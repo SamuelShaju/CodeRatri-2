@@ -349,7 +349,7 @@ div[id="timer"] li {
         width: 150%;
     }
 }
-media (min-width:1000px) and (max-width:1200px) {
+@media (min-width:1000px) and (max-width:1200px) {
     #mid_top{
         height:1500px;
     }
