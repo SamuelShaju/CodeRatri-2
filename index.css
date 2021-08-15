@@ -390,7 +390,7 @@ media (min-width:1000px) and (max-width:1200px) {
         top:-50vh;
     }
 }
-@media (max-width: 768px) (min-width:680px)
+@media (max-width: 768px) and (min-width:680px)
 {
     .image1{
         top: 40px;   
