@@ -237,6 +237,7 @@ div[id="timer"] li {
 #mid_top{
     position: relative;
     display: grid;
+    height: 3000px;
 }
 .image1{
     position: relative;
@@ -249,21 +250,21 @@ div[id="timer"] li {
     position: relative;
     right:-50%;
     width: 50%;
-    top: -240%;
+    top: -700px;
 
 }
 .image3{
     position: relative;
     width: 50%;
     z-index: 3;
-    top:-290%;
+    top:-900px;
     right:-50%;
 }
 .image4{
     position:relative;
     width: 30%;
     z-index: 3;
-    top:-245%;
+    top:-140%;
 }
 /*---------------------------*/
 
@@ -331,12 +332,6 @@ div[id="timer"] li {
     }
 
 }
-@media (max-width: 768px)
-{
-    .image1{
-        top: 40px;   
-    }
-}
 @media (max-width: 700px)
 {
     button{
@@ -352,5 +347,133 @@ div[id="timer"] li {
 {
     div[id="upperwave"] img{
         width: 150%;
+    }
+}
+media (min-width:1000px) and (max-width:1200px) {
+    #mid_top{
+        height:1500px;
+    }
+    .image2{
+        top:-50vh;
+    }
+    .image3{
+        top:-60vh;
+    }
+}
+@media (max-width:999px) and (min-width:870px)
+{
+    #mid_top{
+        height:1300px;
+    }
+    .image2{
+        top:-40vh;
+    }
+    .image3{
+        top:-50vh;
+    }
+    .image4{
+        top:-60vh;
+    }
+}
+@media (max-width:869px) and (min-width:769px)
+{
+    #mid_top{
+        height:1200px;
+    }
+    .image2{
+        top:-30vh;
+    }
+    .image3{
+        top:-40vh;
+    }
+    .image4{
+        top:-50vh;
+    }
+}
+@media (max-width: 768px) (min-width:680px)
+{
+    .image1{
+        top: 40px;   
+    }
+    #mid_top{
+        height:1000px;
+    }
+    .image2{
+        top:-35vh;
+    }
+    .image3{
+        top:-55vh;
+    }
+}
+@media (max-width:679px) and (min-width:600px)
+{
+    .image1{
+        top: 40px;   
+    }
+    #mid_top{
+        height:850px;
+    }
+    .image2{
+        top:-30vh;
+    }
+    .image3{
+        top:-40vh;
+    }
+    .image4{
+        top:-40vh;
+    }
+}
+@media (max-width:599px) and (min-width:500px)
+{
+    .image1{
+        top: 40px;   
+    }
+    #mid_top{
+        height:750px;
+    }
+    .image2{
+        top:-25vh;
+    }
+    .image3{
+        top:-40vh;
+    }
+    .image4{
+        top:-35vh;
+    }
+}
+@media (max-width:499px) and (min-width:390px)
+{
+    .image1{
+        top: 40px;   
+    }
+    #mid_top{
+        height:600px;
+    }
+    .image2{
+        top:-18vh;
+    }
+    .image3{
+        top:-28vh;
+    }
+    .image4{
+        top:-28vh;
+    }
+}
+@media (max-width:389px)
+{
+    .image1{
+        top: 40px;   
+    }
+    #mid_top{
+        height:470px;
+    }
+    .image2{
+        top:-14vh;
+    }
+    .image3{
+        top:-22vh;
+    }
+    .image4{
+        top:-20vh;
     }
 }
