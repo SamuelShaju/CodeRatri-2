@@ -86,7 +86,7 @@ li {
     align-items: center;
     overflow: hidden;
     position: relative;
-    height: 110vh;
+    height: 100vh;
 }
 
 #social {
@@ -261,7 +261,7 @@ div[id="timer"] {
     border: dotted;
     border-color: white;
     min-height: 10vh;
-    height: 13vh;
+    height: 14vh;
     min-width: 50vh;
 }
 div[id="timer"] li {
@@ -277,11 +277,12 @@ div[id="timer"] li {
   }
   .counting{
     /* margin-bottom: 2em; */
-
+    margin-left: -5px;
 }
 .time_unit{
-    font-size: 1.5vh;
+    font-size: 2.2vh;
     color: rgb(255, 94, 0);
+    font-family: 'Contrail One', cursive;
 }
 .numbers{
     /* padding-right: 2vh;
