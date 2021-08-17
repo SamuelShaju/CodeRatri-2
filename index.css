@@ -121,15 +121,23 @@ i {
 
 #contact_us {
     font-size: 25px;
+    font-family: 'Contrail One', cursive;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
 
-#contact_us::before {
+/* #contact_us::before {
     content: "Contact Us:";
     font-weight: 600;
+} */
+
+#contact_head {
+    font-size: 30px;
+    font-family: 'Contrail One', cursive;
+    position: relative;
+    top: 20px;
 }
 
 .contact {
@@ -411,6 +419,10 @@ div[id="timer"] li {
 
     #contact_us {
         font-size: 15px;
+    }
+    
+    #contact_head {
+        font-size: 20px;
     }
 
     .contact {
