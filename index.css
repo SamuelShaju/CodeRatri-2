@@ -310,10 +310,13 @@ div[id="timer"] li {
     font-size: 2.2vh;
     color: rgb(255, 94, 0);
     font-family: 'Contrail One', cursive;
+    text-align:left;
+    padding-left: 10px;
 }
 .numbers{
     /* padding-right: 2vh;
     padding-left: 3vh; */
+    margin-right: 10px;
     font-size: 8vh;
     font-family: 'Contrail One', cursive;
 }
