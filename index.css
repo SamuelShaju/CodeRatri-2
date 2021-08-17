@@ -700,17 +700,17 @@ div[id="timer"] li {
     }
 
     #round_1 {
-        top: 45%;
+        top: 40%;
         left: 4%;
     }
     
     #round_2 {
-        top: 74%;
+        top: 65%;
         left: 30%;
     }
     
     #final_round {
-        top: 76%;
+        top: 70%;
     }
 }
 @media (max-width:389px)
@@ -741,16 +741,16 @@ div[id="timer"] li {
     }
 
     #round_1 {
-        top: 45%;
+        top: 44%;
         left: 4%;
     }
     
     #round_2 {
-        top: 72%;
+        top: 71%;
         left: 30%;
     }
     
     #final_round {
-        top: 76%;
+        top: 73%;
     }
 }
