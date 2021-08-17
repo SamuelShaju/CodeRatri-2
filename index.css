@@ -288,6 +288,7 @@ div[id="timer"] {
     min-height: 10vh;
     height: 14vh;
     min-width: 50vh;
+    text-align: center;
 }
 div[id="timer"] li {
     display: inline-block;
@@ -302,16 +303,20 @@ div[id="timer"] li {
   }
   .counting{
     /* margin-bottom: 2em; */
-    margin-left: -5px;
+    margin-left: 0px;
+    padding-left: 0px;
 }
 .time_unit{
     font-size: 2.2vh;
     color: rgb(255, 94, 0);
     font-family: 'Contrail One', cursive;
+    text-align:left;
+    padding-left: 15px;
 }
 .numbers{
     /* padding-right: 2vh;
     padding-left: 3vh; */
+    margin-right: 10px;
     font-size: 8vh;
     font-family: 'Contrail One', cursive;
 }
