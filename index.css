@@ -672,6 +672,34 @@ div[id="timer"] li {
         top: 72%;
     }
 }
+
+@media (max-width: 530px)
+{
+
+    #date_text {
+        font-size: 14px;
+    }
+
+    #qualifier {
+        top: 13%;
+        left: 18%;
+    }
+
+    #round_1 {
+        top: 38%;
+        left: 4%;
+    }
+    
+    #round_2 {
+        top: 64%;
+        left: 30%;
+    }
+    
+    #final_round {
+        top: 67%;
+    }
+}
+
 @media (max-width:499px) and (min-width:390px)
 {
     .image1{
@@ -700,19 +728,44 @@ div[id="timer"] li {
     }
 
     #round_1 {
+        top: 44%;
+        left: 4%;
+    }
+    
+    #round_2 {
+        top: 71%;
+        left: 30%;
+    }
+    
+    #final_round {
+        top: 73%;
+    }
+}
+
+@media (max-width: 450px)
+{
+    #qualifier {
+        top: 13%;
+        left: 18%;
+    }
+
+    #round_1 {
         top: 40%;
         left: 4%;
     }
     
     #round_2 {
-        top: 65%;
+        top: 64%;
         left: 30%;
     }
     
     #final_round {
-        top: 70%;
+        top: 67%;
     }
 }
+
+
+
 @media (max-width:389px)
 {
     .image1{
@@ -741,16 +794,38 @@ div[id="timer"] li {
     }
 
     #round_1 {
-        top: 44%;
+        top: 49%;
+        left: 5%;
+    }
+    
+    #round_2 {
+        top: 76%;
+        left: 32%;
+    }
+    
+    #final_round {
+        top: 78%;
+    }
+}
+
+@media (max-width: 330px)
+{
+    #qualifier {
+        top: 13%;
+        left: 18%;
+    }
+
+    #round_1 {
+        top: 42%;
         left: 4%;
     }
     
     #round_2 {
-        top: 71%;
+        top: 64%;
         left: 30%;
     }
     
     #final_round {
-        top: 73%;
+        top: 67%;
     }
 }
