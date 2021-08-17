@@ -75,7 +75,7 @@ li {
     /* height: 100vh; */
     width: 50vw;
     position: relative;
-    top: 30px;
+    top: -60px;
 }
 
 
@@ -117,6 +117,23 @@ i {
     size: 2em;
     position: relative;
     top: .39em;
+}
+
+#contact_us {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#contact_us::before {
+    content: "Contact Us:";
+    font-weight: 600;
+}
+
+.contact {
+    margin: 2vw;
 }
 
 #bottom {
@@ -390,6 +407,14 @@ div[id="timer"] li {
         width: 30vw;
         left: 0px;
         top: 50px;
+    }
+
+    #contact_us {
+        font-size: 15px;
+    }
+
+    .contact {
+        margin: 5px;
     }
 
     #rule_list li{
