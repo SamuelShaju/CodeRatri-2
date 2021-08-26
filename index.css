@@ -239,7 +239,6 @@ h6 {
     flex-direction: column-reverse;
     justify-content: space-around;
     align-items: center;
-    position: relative;
 }
 
 #sponsor_heading {
@@ -266,6 +265,11 @@ h6 {
 
 #sponsor_logos_img a img{
     width: 20vw;
+    z-index: 1000;
+}
+
+#sponsor_logos_img a{
+    z-index: 1000;
 }
 
 #sponsor_logos h2 {
